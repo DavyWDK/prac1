@@ -1,49 +1,13 @@
-<?php
-// Dynamische gegevens voor de vakken/technologieën
-$vakken = [
-    [
-        'titel' => 'Web Development',
-        'beschrijving' => 'Leren bouwen van moderne websites met HTML5, CSS3 en JavaScript.',
-        'icoon' => '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>'
-    ],
-    [
-        'titel' => 'Backend & Databases',
-        'beschrijving' => 'Server-side logica schrijven met PHP en gegevens opslaan in MySQL databases.',
-        'icoon' => '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>'
-    ],
-    [
-        'titel' => 'Software Engineering',
-        'beschrijving' => 'Objectgeoriënteerd programmeren, algoritmes en schone code schrijven.',
-        'icoon' => '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>'
-    ],
-    [
-        'titel' => 'Projectmatig Werken',
-        'beschrijving' => 'Samenwerken in Scrum-teams aan echte softwareprojecten en opdrachten.',
-        'icoon' => '<svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>'
-    ]
-];
-
-// Dynamische gegevens voor de toekomst/beroepen
-$beroepen = [
-    'Front-end Developer',
-    'Back-end Developer',
-    'Full-stack Developer',
-    'Database Administrator',
-    'Software Tester'
-];
-?>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Informatie over de opleiding Software Development. Ontdek het vakkenpakket en de toekomstmogelijkheden.">
-    <title>Opleiding Software Development</title>
+    <title>Opleiding Software Development | Curio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <!-- Header & Navigatie -->
     <header class="site-header">
         <div class="container nav-container">
             <a href="#hero" class="logo">
@@ -51,106 +15,136 @@ $beroepen = [
             </a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#over">Over de Studie</a></li>
-                    <li><a href="#vakken">Vakken</a></li>
-                    <li><a href="#rooster">Studieopbouw</a></li>
+                    <li><a href="#ervaring">Mijn Ervaring</a></li>
+                    <li><a href="#planning">Planning</a></li>
+                    <li><a href="#praktijk">Sfeer & Huiswerk</a></li>
+                    <li><a href="#vakanties">Vakanties</a></li>
                     <li><a href="#toekomst">Toekomst</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="container hero-content">
             <h1>MBO Software Development</h1>
-            <p>Bouw aan de digitale toekomst. Leer programmeren, databases ontwerpen en applicaties ontwikkelen voor de echte wereld.</p>
-            <a href="#vakken" class="btn">Bekijk het programma</a>
+            <p>Bouw aan de digitale toekomst. Ontdek de studie, de sfeer, de vakken en het lesprogramma bij Curio.</p>
+            <a href="#ervaring" class="btn">Ontdek de Opleiding</a>
         </div>
     </section>
 
-    <!-- Over de opleiding -->
-    <section id="over" class="container">
-        <h2>Wat houdt de opleiding in?</h2>
-        <div class="section-text-centered">
-            <p>Tijdens de opleiding Software Development transformeer je van computergebruiker naar softwaremaker. Je leert hoe je logisch nadenkt, complexe problemen oplost en deze omzet in werkende software. Er wordt gewerkt met actuele programmeringstalen en methodieken die nauw aansluiten bij het bedrijfsleven.</p>
-        </div>
-    </section>
-
-    <!-- Vakken / Skills (PHP Loop + CSS Grid) -->
-    <section id="vakken" class="section-white-bordered">
+    <section class="section-carousel">
         <div class="container">
-            <h2>Onze Kernthema's</h2>
-            <div class="grid-container">
-                <?php foreach ($vakken as $vak): ?>
-                    <article class="card">
-                        <div class="card-icon">
-                            <?php echo $vak['icoon']; ?>
-                        </div>
-                        <h3><?php echo htmlspecialchars($vak['titel']); ?></h3>
-                        <p><?php echo htmlspecialchars($vak['beschrijving']); ?></p>
-                    </article>
-                <?php endforeach; ?>
+            <h2>Sfeerimpressie & Werkwijze</h2>
+            <div class="carousel-container">
+                <div class="carousel-box">
+                    <h3>Moderne Ontwikkelomgevingen</h3>
+                    <p>Leren werken met professionele tools zoals VS Code, Git en MySQL.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Studieopbouw / Rooster -->
-    <section id="rooster" class="container">
-        <h2>Studieopbouw Leerjaar 1</h2>
-        <p class="section-subtitle">Een globaal overzicht van hoe een lesweek eruitziet op de opleiding.</p>
-        
-        <table class="rooster-table">
-            <thead>
-                <tr>
-                    <th>Periode</th>
-                    <th>Focusthema</th>
-                    <th>Vakken & Projecten</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Blok 1</strong></td>
-                    <td>Basics of Coding</td>
-                    <td>HTML5, CSS3, Basis Logica, Scrum-introductie</td>
-                </tr>
-                <tr>
-                    <td><strong>Blok 2</strong></td>
-                    <td>Dynamic Web</td>
-                    <td>JavaScript, PHP Basis, Relationele Databases (MySQL)</td>
-                </tr>
-                <tr>
-                    <td><strong>Blok 3</strong></td>
-                    <td>Advanced Software</td>
-                    <td>Object-Oriented Programming (OOP), API's, Git & GitHub</td>
-                </tr>
-                <tr>
-                    <td><strong>Blok 4</strong></td>
-                    <td>Meesterproef</td>
-                    <td>Eindproject: Volledige webapplicatie bouwen van A tot Z</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <!-- Toekomstmogelijkheden -->
-    <section id="toekomst" class="section-white-bordered">
-        <div class="container">
-            <h2>Na deze studie</h2>
-            <p class="section-subtitle-max">Met een diploma Software Development kun je direct aan de slag op de arbeidsmarkt of doorstuderen op het HBO.</p>
-            
-            <ul class="beroepen-list">
-                <?php foreach ($beroepen as $beroep): ?>
-                    <li class="beroep-tag"><?php echo htmlspecialchars($beroep); ?></li>
-                <?php endforeach; ?>
-            </ul>
+    <section id="ervaring" class="container">
+        <h2>Mijn Mening & Ervaring</h2>
+        <div class="quote-card">
+            <p>"Software Development is een uitdagende en praktische opleiding. Wat ik erg fijn vind, is dat je vanaf dag één bezig bent met het daadwerkelijk bouwen van applicaties. Docenten ondersteunen je goed bij vragen en je krijgt de vrijheid om jezelf te verdiepen in de technologieën die jij interessant vindt."</p>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section id="planning" class="section-white-bordered">
+        <div class="container">
+            <h2>Planning Komende Schooljaren</h2>
+            <p class="section-subtitle">Hoe ziet de 3-jarige opleiding er in grote lijnen uit?</p>
+            <div class="grid-container">
+                <article class="card">
+                    <span class="badge-year">Leerjaar 1</span>
+                    <h3>Basics & Fundament</h3>
+                    <p>Basis HTML, CSS, JavaScript en PHP. Introductie in databases en samenwerken volgens Scrum.</p>
+                </article>
+                <article class="card">
+                    <span class="badge-year">Leerjaar 2</span>
+                    <h3>Verdieping & BPV (Stage)</h3>
+                    <p>Object Oriented Programming, Frameworks (Laravel/React) en je eerste echte BPV-stage in het bedrijfsleven.</p>
+                </article>
+                <article class="card">
+                    <span class="badge-year">Leerjaar 3</span>
+                    <h3>Examen & Afstuderen</h3>
+                    <p>Geavanceerde backend/frontend systemen, het opleveren van een meesterproef en je voorbereiden op de arbeidsmarkt of HBO.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="praktijk" class="container">
+        <h2>Sfeer, Groepswerk & Huiswerk</h2>
+        <div class="grid-container">
+            <article class="card">
+                <h3>De Sfeer</h3>
+                <p>De sfeer op de opleiding is informeel en toegankelijk. Iedereen helpt elkaar bij lastige bugs en er heerst een echte 'maker-cultuur'.</p>
+            </article>
+            <article class="card">
+                <h3>Werken in Groepen</h3>
+                <p>Veel projecten doe je samen in een Scrum-team. Je leert hoe je samenwerkt met Git, taken verdeelt en gezamenlijk een werkend product oplevert.</p>
+            </article>
+            <article class="card">
+                <h3>Huiswerk & Studielast</h3>
+                <p>Het meeste werk doe je op school in de praktijklokalen. Huiswerk bestaat vooral uit het afmaken van opdrachten, code reviewen en het voorbereiden van project-sprints.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="vakanties" class="section-white-bordered">
+        <div class="container">
+            <h2>Vakanties & Vrije Dagen (Curio)</h2>
+            <p class="section-subtitle">Belangrijke data voor het lopende schooljaar.</p>
+            <table class="rooster-table">
+                <thead>
+                    <tr>
+                        <th>Vakantie / Vrije Dag</th>
+                        <th>Periode / Datum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Curiodag (Geen lessen)</strong></td>
+                        <td>1 oktober 2026</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Herfstvakantie</strong></td>
+                        <td>19 t/m 23 oktober 2026</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Kerstvakantie</strong></td>
+                        <td>21 december 2026 t/m 1 januari 2027</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Voorjaarsvakantie (Carnaval)</strong></td>
+                        <td>8 t/m 12 februari 2027</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Meivakantie</strong></td>
+                        <td>26 april t/m 7 mei 2027</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Zomervakantie</strong></td>
+                        <td>26 juli t/m 3 september 2027</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="toekomst" class="container">
+        <h2>Wat wil ik na deze studie doen?</h2>
+        <div class="section-text-centered">
+            <p>Mijn doel na het behalen van mijn MBO-diploma Software Development is om door te stromen naar het <strong>HBO Informatica / Software Engineering</strong> om mij verder te verdiepen in backend architectuur en cloud-technologieën. Vervolgens wil ik als Full-stack Developer aan de slag bij een innovatief softwarebedrijf.</p>
+        </div>
+    </section>
+
     <footer class="site-footer">
         <div class="container footer-content">
-            <h3>Software Development</h3>
+            <h3>Software Development | Curio</h3>
             <p>Opleidingspresentatie voor aanstaande studenten.</p>
             <div class="footer-bottom">
                 <p>&copy; <?php echo date("Y"); ?> Opleiding Software Development | Alle rechten voorbehouden.</p>
