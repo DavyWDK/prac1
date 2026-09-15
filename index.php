@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opleiding Software Development | Curio</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -15,10 +15,11 @@
             </a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#visie">Visie</a></li>
-                    <li><a href="#levels">Levels & Trajecten</a></li>
-                    <li><a href="#units">Units & Challenges</a></li>
+                    <li><a href="#over">Visie</a></li>
+                    <li><a href="#levels">Levels</a></li>
+                    <li><a href="#unit">Unit-Opbouw</a></li>
                     <li><a href="#rooster">Weekrooster</a></li>
+                    <li><a href="#ervaring">Ervaring</a></li>
                     <li><a href="#praktijk">Sfeer & Huiswerk</a></li>
                     <li><a href="#vakanties">Vakanties</a></li>
                     <li><a href="#toekomst">Toekomst</a></li>
@@ -30,8 +31,8 @@
     <section id="hero" class="hero">
         <div class="container hero-content">
             <h1>MBO Software Development</h1>
-            <p>Ontdek het vernieuwde curriculum: op jouw eigen tempo leren met Levels, Units en Challenges bij Curio.</p>
-            <a href="#levels" class="btn">Bekijk de Opbouw</a>
+            <p>Ontdek het vernieuwde curriculum (2026-2027) bij Curio. Flexibel leren op eigen tempo met Levels, Units en Challenges.</p>
+            <a href="#levels" class="btn">Bekijk de Levels</a>
         </div>
     </section>
 
@@ -40,77 +41,84 @@
             <h2>Sfeerimpressie & Werkwijze</h2>
             <div class="carousel-container">
                 <div class="carousel-box">
-                    <h3>Moderne Ontwikkelomgevingen</h3>
-                    <p>Leren werken met professionele tools, van HTML/CSS tot PHP, Git en Scrum.</p>
+                    <h3>Moderne Ontwikkelomgevingen & AI</h3>
+                    <p>Leren werken met professionele tools zoals VS Code, Git, MySQL en slim inzetten van AI.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="visie" class="container">
+    <section id="over" class="container">
         <h2>Visie achter de Opleiding</h2>
-        <div class="section-text-centered">
-            <p>De opleiding is vernieuwd met de student centraal. Meer focus op houding, samenwerken en gedrag, flexibel leren op je eigen tempo, en het slim en verantwoord inzetten van AI om je optimaal voor te bereiden op de technologische toekomst.</p>
-        </div>
-        <div class="grid-container four-cols">
+        <p class="section-subtitle">De student staat centraal in een vernieuwde en flexibele leeromgeving.</p>
+        <div class="grid-container">
             <article class="card">
-                <h3>5 Leerlijnen</h3>
-                <p>Persoonlijke & professionele ontwikkeling, Projectmatig werken, Veilig & verantwoord ontwikkelen, Programmeren & tools, en Generiek.</p>
+                <h3>Leren op eigen tempo</h3>
+                <p>Mogelijkheid tot regulier (4 jaar), versneld (3 jaar) of een verlengd traject op basis van jouw bewijslast.</p>
             </article>
             <article class="card">
-                <h3>Modules (4 wk)</h3>
-                <p>Theorie en praktijk gecombineerd rond één onderwerp. Afgesloten met een SD-certificaat.</p>
+                <h3>Houding & Samenwerken</h3>
+                <p>Sterke focus op professioneel gedrag, Scrum-projecten, en communicatie met het werkveld.</p>
             </article>
             <article class="card">
-                <h3>Masterclasses</h3>
-                <p>Korte, gerichte lessen (45-60 min) over specifieke onderwerpen zoals CSS Grid, Prompt Engineering of Git conflicts.</p>
-            </article>
-            <article class="card">
-                <h3>Reflectieweek</h3>
-                <p>Elke unit sluit af met portfolio opbouwen, presenteren, bewijslast verzamelen en reflecteren op je POP.</p>
+                <h3>Toekomstgericht & AI</h3>
+                <p>Slim en verantwoord inzetten van kunstmatige intelligentie en inspelen op technologische ontwikkelingen.</p>
             </article>
         </div>
     </section>
 
     <section id="levels" class="section-white-bordered">
         <div class="container">
-            <h2>De 3 Levels & Trajecten</h2>
-            <p class="section-subtitle">Standaard duurt de opleiding 4 jaar, maar een versneld traject van 3 jaar is mogelijk bij snelle zelfstandigheid.</p>
-            
+            <h2>De Drie Levels van de Opleiding</h2>
+            <p class="section-subtitle">Bouw je vaardigheden stap voor stap op gedurende de studie.</p>
             <div class="grid-container">
                 <article class="card">
-                    <span class="badge-year">Level 1 — 24 Weken</span>
-                    <h3>Fundamentals</h3>
-                    <p>Basis webdevelopment (HTML & CSS). Je leert leeruitkomsten aan te tonen via 6 units van 4 weken. Afgesloten met het Bindend Studieadvies (BSA).</p>
+                    <span class="badge-year">Level 1</span>
+                    <h3>Fundamentals (24 weken)</h3>
+                    <p>Basis webdevelopment (HTML & CSS). Je werkt aan 6 units van 4 weken. Leeruitkomsten en opdrachten worden voor je klaargezet.</p>
                 </article>
                 <article class="card">
                     <span class="badge-year">Level 2</span>
                     <h3>Professionaliseren</h3>
-                    <p>Zelf keuzes maken in modules, complexere challenges en op je eigen tempo leeruitkomsten bepalen en bewijzen.</p>
+                    <p>Zelf keuzes maken in modules, complexere challenges en je eigen tempo bepalen. Verdieping in JavaScript, PHP, databases en API's.</p>
                 </article>
                 <article class="card">
                     <span class="badge-year">Level 3</span>
-                    <h3>Beroepsgericht</h3>
-                    <p>BPV (stage), échte challenges uit het werkveld, communicatie met externe opdrachtgevers en de examinering voor je diploma.</p>
+                    <h3>Beroepsgericht (Stage & Examen)</h3>
+                    <p>BPV-stage, échte challenges uit het werkveld en directe communicatie met externen. Afronding van de studie met examinering.</p>
                 </article>
             </div>
+
+            <h3 style="text-align: center; margin-top: 2.5rem; color: var(--curio-purple);">De 5 Leerlijnen</h3>
+            <ul class="beroepen-list">
+                <li class="beroep-tag">Persoonlijke & Professionele Ontwikkeling</li>
+                <li class="beroep-tag">Projectmatig Werken</li>
+                <li class="beroep-tag">Veilig & Verantwoord Ontwikkelen</li>
+                <li class="beroep-tag">Programmeren & Tools</li>
+                <li class="beroep-tag">Generiek (Vakken)</li>
+            </ul>
         </div>
     </section>
 
-    <section id="units" class="container">
-        <h2>Opbouw van een Unit & Challenges</h2>
+    <section id="unit" class="container">
+        <h2>Opbouw van een Unit (4 Weken)</h2>
+        <p class="section-subtitle">Elke unit heeft een vaste, gestructureerde indeling.</p>
         <div class="grid-container">
             <article class="card">
-                <h3>Hoe werkt een Unit?</h3>
-                <p>Een unit duurt 4 weken en bestaat uit 3 weken projectmatig werken via sprints aan een <strong>Challenge</strong> (praktijkopdracht), ondersteund door een Module en Masterclasses. De 4e week is de <strong>Reflectieweek</strong>.</p>
+                <h3>Module (4 weken)</h3>
+                <p>Combinatie van theorie en praktijk over een specifiek onderwerp (bijv. Databases, API's of Mobile App Basics). Afgesloten met een SD-certificaat.</p>
             </article>
             <article class="card">
-                <h3>Voorbeeld Challenge</h3>
-                <p>Het bouwen van een interactief prototype van een fabrieksmonitor-dashboard dat live data uitleest uit een JSON-feed, visueel aantrekkelijk is en waarschuwingen helder weergeeft voor medewerkers.</p>
+                <h3>Challenge (3 weken)</h3>
+                <p>Projectmatig in sprints werken aan een echte praktijkopdracht. Bijvoorbeeld het bouwen van een dashboard of webapplicatie.</p>
             </article>
             <article class="card">
-                <h3>Voorbeelden van Modules</h3>
-                <p>Basis HTML & CSS, Interactieve elementen met JS, Database ontwerpen, API-koppelingen, Mobile App basics en het live zetten van applicaties.</p>
+                <h3>Masterclasses (3 weken)</h3>
+                <p>Korte, gerichte lessen (45-60 min) over specifieke onderwerpen zoals CSS Grid, Prompt Engineering, Flowcharts en Git merge-conflicten.</p>
+            </article>
+            <article class="card">
+                <h3>Reflectieweek (1 week)</h3>
+                <p>Aan het eind van elke unit: portfolio bijwerken, presenteren, bewijslast verzamelen, reflecteren (POP) en nieuwe doelen stellen.</p>
             </article>
         </div>
     </section>
@@ -118,45 +126,48 @@
     <section id="rooster" class="section-white-bordered">
         <div class="container">
             <h2>Voorbeeld Weekrooster</h2>
-            <p class="section-subtitle">Een globale indeling van een lesweek binnen de opleiding.</p>
+            <p class="section-subtitle">Zo kan een gemiddelde lesweek er voor jou uitzien.</p>
             
             <table class="rooster-table">
                 <thead>
                     <tr>
                         <th>Dag</th>
-                        <th>Kernactiviteiten</th>
+                        <th>Kernactiviteiten & Vakken</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><strong>Maandag</strong></td>
-                        <td>Mentoruur/weekopstart, Programmeren & tools, Nederlands/Engels/Rekenen</td>
+                        <td>Mentoruur / Weekopstart, Programmeren & Tools, Nederlands / Engels / Rekenen</td>
                     </tr>
                     <tr>
                         <td><strong>Dinsdag</strong></td>
-                        <td>Programmeren & tools, Veilig en verantwoord ontwikkelen, Burgerschap</td>
+                        <td>Programmeren & Tools, Veilig & Verantwoord Ontwikkelen, Burgerschap</td>
                     </tr>
                     <tr>
                         <td><strong>Woensdag</strong></td>
-                        <td>Check-in, Projectmatig werken aan de challenge, Coaching (MTG), Programmeren & tools</td>
+                        <td>Check-in, Projectmatig werken aan de Challenge, Coaching (MTG), Programmeren & Tools</td>
                     </tr>
                     <tr>
                         <td><strong>Donderdag</strong></td>
-                        <td>Check-in, Projectmatig werken aan de challenge, Coaching (MTG), Check-out</td>
+                        <td>Check-in, Projectmatig werken aan de Challenge, Coaching (MTG), Check-out</td>
                     </tr>
                     <tr>
                         <td><strong>Vrijdag</strong></td>
-                        <td>Projectmatig werken aan de challenge, Mentoruur/afsluiting van de week</td>
+                        <td>Projectmatig werken aan de Challenge, Mentoruur & Afsluiting van de week</td>
                     </tr>
                 </tbody>
             </table>
+
+            <h3 style="text-align: center; margin-top: 2rem; color: var(--curio-purple);">Generieke Vakken & Begeleiding</h3>
+            <p style="text-align: center; color: var(--text-muted);">Nederlands, Engels, Rekenen, Keuzedelen, Burgerschap, Loopbaan, Mentorgesprekken en Mentorles.</p>
         </div>
     </section>
 
     <section id="ervaring" class="container">
         <h2>Mijn Mening & Ervaring</h2>
         <div class="quote-card">
-            <p>"Software Development is een uitdagende en praktische opleiding. Wat ik erg fijn vind aan het vernieuwde systeem met Levels en Challenges, is dat je heel gericht aan projecten werkt en exact weet welke bewijslast je moet opleveren om verder te groeien."</p>
+            <p>"Software Development is een uitdagende en praktische opleiding. Wat ik erg fijn vind aan deze opzet, is dat de units en challenges heel duidelijk zijn ingedeeld. Je weet precies wat je moet opleveren en je krijgt veel begeleiding bij het behalen van je levels."</p>
         </div>
     </section>
 
@@ -170,11 +181,11 @@
                 </article>
                 <article class="card">
                     <h3>Werken in Groepen</h3>
-                    <p>Veel projecten doe je samen in een Scrum-team. Je leert hoe je samenwerkt met Git, taken verdeelt en gezamenlijk een werkend product oplevert.</p>
+                    <p>Veel challenges doe je samen in een team. Je leert werken volgens de Scrum-methodiek, verdeelt taken en levert samen een werkend product op.</p>
                 </article>
                 <article class="card">
                     <h3>Huiswerk & Studielast</h3>
-                    <p>Het meeste werk doe je op school in de praktijklokalen. Huiswerk bestaat vooral uit het afmaken van opdrachten, code reviewen en het voorbereiden van project-sprints.</p>
+                    <p>Het meeste werk doe je op school tijdens de projecturen. Huiswerk bestaat uit het afmaken van opdrachten, voorbereiden van masterclasses en bijwerken van je portfolio.</p>
                 </article>
             </div>
         </div>
@@ -182,7 +193,7 @@
 
     <section id="vakanties" class="container">
         <h2>Vakanties & Vrije Dagen (Curio)</h2>
-        <p class="section-subtitle">Belangrijke data voor het schooljaar 2026-2027.</p>
+        <p class="section-subtitle">Belangrijke data voor het lopende schooljaar.</p>
         <table class="rooster-table">
             <thead>
                 <tr>
@@ -226,7 +237,7 @@
                 <p>Mijn doel na het behalen van mijn MBO-diploma Software Development is om door te stromen naar het <strong>HBO Informatica / Software Engineering</strong> om mij verder te verdiepen in backend architectuur en cloud-technologieën. Vervolgens wil ik als Full-stack Developer aan de slag bij een innovatief softwarebedrijf.</p>
             </div>
             
-            <h3 style="text-align: center; margin-top: 2rem; color: var(--curio-purple);">Beroepen na de opleiding:</h3>
+            <h3 style="text-align: center; margin-top: 2rem; color: var(--curio-purple);">Mogelijke Beroepen:</h3>
             <ul class="beroepen-list">
                 <li class="beroep-tag">Front-end Developer</li>
                 <li class="beroep-tag">Back-end Developer</li>
