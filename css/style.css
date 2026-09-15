@@ -46,7 +46,7 @@ section {
 
 .section-text-centered {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -184,9 +184,13 @@ h2 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
     margin-top: 1.5rem;
+}
+
+.grid-container.four-cols {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .card {

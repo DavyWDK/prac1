@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opleiding Software Development | Curio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 
@@ -15,11 +15,10 @@
             </a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="#over">Over</a></li>
-                    <li><a href="#vakken">Vakken</a></li>
-                    <li><a href="#rooster">Rooster</a></li>
-                    <li><a href="#ervaring">Ervaring</a></li>
-                    <li><a href="#planning">Planning</a></li>
+                    <li><a href="#visie">Visie</a></li>
+                    <li><a href="#levels">Levels & Trajecten</a></li>
+                    <li><a href="#units">Units & Challenges</a></li>
+                    <li><a href="#rooster">Weekrooster</a></li>
                     <li><a href="#praktijk">Sfeer & Huiswerk</a></li>
                     <li><a href="#vakanties">Vakanties</a></li>
                     <li><a href="#toekomst">Toekomst</a></li>
@@ -31,8 +30,8 @@
     <section id="hero" class="hero">
         <div class="container hero-content">
             <h1>MBO Software Development</h1>
-            <p>Bouw aan de digitale toekomst. Ontdek de studie, de sfeer, de vakken en het lesprogramma bij Curio.</p>
-            <a href="#vakken" class="btn">Bekijk het programma</a>
+            <p>Ontdek het vernieuwde curriculum: op jouw eigen tempo leren met Levels, Units en Challenges bij Curio.</p>
+            <a href="#levels" class="btn">Bekijk de Opbouw</a>
         </div>
     </section>
 
@@ -42,108 +41,122 @@
             <div class="carousel-container">
                 <div class="carousel-box">
                     <h3>Moderne Ontwikkelomgevingen</h3>
-                    <p>Leren werken met professionele tools zoals VS Code, Git en MySQL.</p>
+                    <p>Leren werken met professionele tools, van HTML/CSS tot PHP, Git en Scrum.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="over" class="container">
-        <h2>Wat houdt de opleiding in?</h2>
+    <section id="visie" class="container">
+        <h2>Visie achter de Opleiding</h2>
         <div class="section-text-centered">
-            <p>Tijdens de opleiding Software Development transformeer je van computergebruiker naar softwaremaker. Je leert hoe je logisch nadenkt, complexe problemen oplost en deze omzet in werkende software. Er wordt gewerkt met actuele programmeringstalen en methodieken die nauw aansluiten bij het bedrijfsleven.</p>
+            <p>De opleiding is vernieuwd met de student centraal. Meer focus op houding, samenwerken en gedrag, flexibel leren op je eigen tempo, en het slim en verantwoord inzetten van AI om je optimaal voor te bereiden op de technologische toekomst.</p>
+        </div>
+        <div class="grid-container four-cols">
+            <article class="card">
+                <h3>5 Leerlijnen</h3>
+                <p>Persoonlijke & professionele ontwikkeling, Projectmatig werken, Veilig & verantwoord ontwikkelen, Programmeren & tools, en Generiek.</p>
+            </article>
+            <article class="card">
+                <h3>Modules (4 wk)</h3>
+                <p>Theorie en praktijk gecombineerd rond één onderwerp. Afgesloten met een SD-certificaat.</p>
+            </article>
+            <article class="card">
+                <h3>Masterclasses</h3>
+                <p>Korte, gerichte lessen (45-60 min) over specifieke onderwerpen zoals CSS Grid, Prompt Engineering of Git conflicts.</p>
+            </article>
+            <article class="card">
+                <h3>Reflectieweek</h3>
+                <p>Elke unit sluit af met portfolio opbouwen, presenteren, bewijslast verzamelen en reflecteren op je POP.</p>
+            </article>
         </div>
     </section>
 
-    <section id="vakken" class="section-white-bordered">
+    <section id="levels" class="section-white-bordered">
         <div class="container">
-            <h2>Onze Kernthema's & Vakken</h2>
+            <h2>De 3 Levels & Trajecten</h2>
+            <p class="section-subtitle">Standaard duurt de opleiding 4 jaar, maar een versneld traject van 3 jaar is mogelijk bij snelle zelfstandigheid.</p>
+            
             <div class="grid-container">
                 <article class="card">
-                    <h3>Web Development</h3>
-                    <p>Leren bouwen van moderne websites met HTML5, CSS3 en JavaScript.</p>
+                    <span class="badge-year">Level 1 — 24 Weken</span>
+                    <h3>Fundamentals</h3>
+                    <p>Basis webdevelopment (HTML & CSS). Je leert leeruitkomsten aan te tonen via 6 units van 4 weken. Afgesloten met het Bindend Studieadvies (BSA).</p>
                 </article>
                 <article class="card">
-                    <h3>Backend & Databases</h3>
-                    <p>Server-side logica schrijven met PHP en gegevens opslaan in MySQL databases.</p>
+                    <span class="badge-year">Level 2</span>
+                    <h3>Professionaliseren</h3>
+                    <p>Zelf keuzes maken in modules, complexere challenges en op je eigen tempo leeruitkomsten bepalen en bewijzen.</p>
                 </article>
                 <article class="card">
-                    <h3>Software Engineering</h3>
-                    <p>Objectgeoriënteerd programmeren, algoritmes en schone code schrijven.</p>
-                </article>
-                <article class="card">
-                    <h3>Projectmatig Werken</h3>
-                    <p>Samenwerken in Scrum-teams aan echte softwareprojecten en opdrachten.</p>
+                    <span class="badge-year">Level 3</span>
+                    <h3>Beroepsgericht</h3>
+                    <p>BPV (stage), échte challenges uit het werkveld, communicatie met externe opdrachtgevers en de examinering voor je diploma.</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <section id="rooster" class="container">
-        <h2>Studieopbouw Leerjaar 1 (Lesrooster)</h2>
-        <p class="section-subtitle">Een globaal overzicht van hoe een lesweek eruitziet op de opleiding.</p>
-        
-        <table class="rooster-table">
-            <thead>
-                <tr>
-                    <th>Periode</th>
-                    <th>Focusthema</th>
-                    <th>Vakken & Projecten</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><strong>Blok 1</strong></td>
-                    <td>Basics of Coding</td>
-                    <td>HTML5, CSS3, Basis Logica, Scrum-introductie</td>
-                </tr>
-                <tr>
-                    <td><strong>Blok 2</strong></td>
-                    <td>Dynamic Web</td>
-                    <td>JavaScript, PHP Basis, Relationele Databases (MySQL)</td>
-                </tr>
-                <tr>
-                    <td><strong>Blok 3</strong></td>
-                    <td>Advanced Software</td>
-                    <td>Object-Oriented Programming (OOP), API's, Git & GitHub</td>
-                </tr>
-                <tr>
-                    <td><strong>Blok 4</strong></td>
-                    <td>Meesterproef</td>
-                    <td>Eindproject: Volledige webapplicatie bouwen van A tot Z</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <section id="ervaring" class="section-white-bordered">
-        <div class="container">
-            <h2>Mijn Mening & Ervaring</h2>
-            <div class="quote-card">
-                <p>"Software Development is een uitdagende en praktische opleiding. Wat ik erg fijn vind, is dat je vanaf dag één bezig bent met het daadwerkelijk bouwen van applicaties. Docenten ondersteunen je goed bij vragen en je krijgt de vrijheid om jezelf te verdiepen in de technologieën die jij interessant vindt."</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="planning" class="container">
-        <h2>Planning Komende Schooljaren</h2>
-        <p class="section-subtitle">Hoe ziet de 3-jarige opleiding er in grote lijnen uit?</p>
+    <section id="units" class="container">
+        <h2>Opbouw van een Unit & Challenges</h2>
         <div class="grid-container">
             <article class="card">
-                <span class="badge-year">Leerjaar 1</span>
-                <h3>Basics & Fundament</h3>
-                <p>Basis HTML, CSS, JavaScript en PHP. Introductie in databases en samenwerken volgens Scrum.</p>
+                <h3>Hoe werkt een Unit?</h3>
+                <p>Een unit duurt 4 weken en bestaat uit 3 weken projectmatig werken via sprints aan een <strong>Challenge</strong> (praktijkopdracht), ondersteund door een Module en Masterclasses. De 4e week is de <strong>Reflectieweek</strong>.</p>
             </article>
             <article class="card">
-                <span class="badge-year">Leerjaar 2</span>
-                <h3>Verdieping & BPV (Stage)</h3>
-                <p>Object Oriented Programming, Frameworks (Laravel/React) en je eerste echte BPV-stage in het bedrijfsleven.</p>
+                <h3>Voorbeeld Challenge</h3>
+                <p>Het bouwen van een interactief prototype van een fabrieksmonitor-dashboard dat live data uitleest uit een JSON-feed, visueel aantrekkelijk is en waarschuwingen helder weergeeft voor medewerkers.</p>
             </article>
             <article class="card">
-                <span class="badge-year">Leerjaar 3</span>
-                <h3>Examen & Afstuderen</h3>
-                <p>Geavanceerde backend/frontend systemen, het opleveren van een meesterproef en je voorbereiden op de arbeidsmarkt of HBO.</p>
+                <h3>Voorbeelden van Modules</h3>
+                <p>Basis HTML & CSS, Interactieve elementen met JS, Database ontwerpen, API-koppelingen, Mobile App basics en het live zetten van applicaties.</p>
             </article>
+        </div>
+    </section>
+
+    <section id="rooster" class="section-white-bordered">
+        <div class="container">
+            <h2>Voorbeeld Weekrooster</h2>
+            <p class="section-subtitle">Een globale indeling van een lesweek binnen de opleiding.</p>
+            
+            <table class="rooster-table">
+                <thead>
+                    <tr>
+                        <th>Dag</th>
+                        <th>Kernactiviteiten</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Maandag</strong></td>
+                        <td>Mentoruur/weekopstart, Programmeren & tools, Nederlands/Engels/Rekenen</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Dinsdag</strong></td>
+                        <td>Programmeren & tools, Veilig en verantwoord ontwikkelen, Burgerschap</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Woensdag</strong></td>
+                        <td>Check-in, Projectmatig werken aan de challenge, Coaching (MTG), Programmeren & tools</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Donderdag</strong></td>
+                        <td>Check-in, Projectmatig werken aan de challenge, Coaching (MTG), Check-out</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vrijdag</strong></td>
+                        <td>Projectmatig werken aan de challenge, Mentoruur/afsluiting van de week</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="ervaring" class="container">
+        <h2>Mijn Mening & Ervaring</h2>
+        <div class="quote-card">
+            <p>"Software Development is een uitdagende en praktische opleiding. Wat ik erg fijn vind aan het vernieuwde systeem met Levels en Challenges, is dat je heel gericht aan projecten werkt en exact weet welke bewijslast je moet opleveren om verder te groeien."</p>
         </div>
     </section>
 
@@ -169,7 +182,7 @@
 
     <section id="vakanties" class="container">
         <h2>Vakanties & Vrije Dagen (Curio)</h2>
-        <p class="section-subtitle">Belangrijke data voor het lopende schooljaar.</p>
+        <p class="section-subtitle">Belangrijke data voor het schooljaar 2026-2027.</p>
         <table class="rooster-table">
             <thead>
                 <tr>
