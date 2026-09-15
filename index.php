@@ -39,7 +39,7 @@ $beroepen = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Informatie over de opleiding Software Development. Ontdek het vakkenpakket en de toekomstmogelijkheden.">
     <title>Opleiding Software Development</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
