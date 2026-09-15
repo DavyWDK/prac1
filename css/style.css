@@ -120,14 +120,14 @@ h2 {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 1.2rem;
+    gap: 1rem;
 }
 
 .nav-links a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
 }
 
@@ -184,7 +184,7 @@ h2 {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;
     margin-top: 1.5rem;
 }
@@ -250,6 +250,24 @@ h2 {
     background-color: var(--curio-purple);
     color: #ffffff;
     font-weight: 700;
+}
+
+.beroepen-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+.beroep-tag {
+    background-color: var(--curio-yellow);
+    color: var(--curio-purple);
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 0.95rem;
 }
 
 .site-footer {
